@@ -63,6 +63,7 @@ class App:
 
     # Function to show each question
     def show_question(self):
+        self.user_missed = False
         # Code to clear the screen permanently!
         for widget in self.window.winfo_children():
             widget.destroy()
